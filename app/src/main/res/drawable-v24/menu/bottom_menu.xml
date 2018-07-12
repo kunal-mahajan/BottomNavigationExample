@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="@string/action_home"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/action_store"
+        android:enabled="true"
+        android:icon="@drawable/store_icon"
+        android:title="@string/action_store"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/action_create"
+        android:enabled="true"
+        android:icon="@drawable/create_icon"
+        android:title="@string/action_create"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/action_inbox"
+        android:enabled="true"
+        android:icon="@drawable/inbox_icon"
+        android:title="@string/message"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/action_profile"
+        app:showAsAction="always|withText"></item>
+</menu>
